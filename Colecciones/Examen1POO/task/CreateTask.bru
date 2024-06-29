@@ -5,7 +5,16 @@ meta {
 }
 
 post {
-  url: 
-  body: none
+  url: {{PATH}}/tasks
+  body: json
   auth: none
+}
+
+body:json {
+    {
+      "Description": "Comprar una super poderosa Api Rest",
+      "State": "En Proceso",
+      "Priority": "baja",
+      "EstimatedTimeHours": "1"
+  }
 }

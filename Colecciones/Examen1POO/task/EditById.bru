@@ -5,7 +5,16 @@ meta {
 }
 
 put {
-  url: /tasks/
-  body: none
+  url: {{PATH}}/tasks/02993af1-f079-47f5-88d3-b560beb84f8b
+  body: json
   auth: none
+}
+
+body:json {
+    {
+      "description": "Realizar el Inventario de los Productos",
+      "state": "Terminado",
+      "priority": "Alta",
+      "estimatedTimeHours": "88"
+    }
 }
